@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster|Merienda");
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+@import url("https://fonts.googleapis.com/css?family=Audiowide|Lobster|Merienda|Sigmar+One");
+@import url("https://fonts.googleapis.com/css?family=Audiowide|Changa|Lobster|Merienda|Sigmar+One");
+
+
+body{
+    transition: 0.7s ease-in;
+    padding: 4px;
+}
+
+ul>img{
+    width:50px;
+    height:50px;
+}
+#mokuongo{
+    background-image: url(https://images.pexels.com/photos/1083623/pexels-photo-1083623.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); 
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height:80%;
+}
+#juu{
+    color: #fff;
+    text-align: end;
+    padding: 8px 0px;
+    margin-right: 16px;
+}
+nav{
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    list-style: none; 
+}
+nav ul li{
+    font-family: 'Lobster', cursive;
+    font-family: 'Merienda', cursive;
+    margin-left: 120px;
+    display: inline-block; 
+    padding: 6px;
+    background-color: #fff;
+    border: 1px solid yellowgreen;
+    border-radius: 25px;
+ 
+}
+nav ul li:hover{
+    color: white;
+    background-color: aqua;
+    background-size: cover;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: brown;
+}
+#section1{
+    color: 	yellow;
+   font-style: italic;
+   font-size: 40px;
+    margin-top:150px;
+  text-align: center;
+  line-height: 40px;
+}
+#section1>h2,#section1>p{
+    font-family: 'Lobster', cursive;
+    font-family: 'Merienda', cursive;
+    font-size: 40px;
+}
+#kenya{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+
+hr{
+  
+    display: block;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: dotted;
+    border-width: 3px solid black;
+}
+#services img{
+    width:300px;
+    height:250px
+ 
+}
+/* transitioning */
+#services img:hover{
+    -webkit-transform: rotate(180deg); 
+    transform: rotate(180deg);
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+#services{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.client{
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+}
+.client img{
+    border-radius:50%;
+    width:100px;
+    height:100px;
+}
+#ben{
+    
+    width: 48%;
+}
+
+#alefo{
+    width: 48%;
+}
+
+.mit p,.po p{
+    margin-top:20px;
+}
+.mit img,.po img{ 
+    float: left;
+}
+#bold{
+    text-align: center;
+    color: blue;
+}
+#wedo{
+    text-align: center;
+    
+}
+#wedo div{
+    display: inline-block;
+    padding:80px;
+    
+}
+#wedo img{
+    width:100px;
+    height:100px;
+    
+}#jaluo {
+    background-color:	#C0C0C0;
+    display:flex;
+    justify-content: space-around;
+}
+#section{
+    width:40%;
+}
+#eight{
+    width:30%;
+}
+#nine{
+    width: 30%;
+}
+#but{
+    background-color: green;
+    color: whitesmoke;
+    border-radius: 27px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 30%;
+}
+#vinicius{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}#vinicius img{
+    width:300px;
+    height:250px;
+}
+#vinicius img:hover{
+    -webkit-transform: rotate(180deg); 
+    transform: rotate(180deg);
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+#but:hover{
+    background-color: blue;
+    color:white;
+    transition-duration: 1s;
+}
+#kali{
+    position: relative;
+    display: inline-block;
+}
+#kali .tooltip{
+    visibility: hidden;
+    width:150px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+}
+#section button{
+    background-color: green;
+    color: whitesmoke;
+    border-radius: 27px;
+  
+}
+#jaluo,#jaluo h4,#eight h4,#bold{
+    font-family: 'Merienda', cursive;
+}
+.client,#wedo,#kenya h2,#kenya p,#otas,#otas h2,#otas h4, #help span{
+    font-family: 'Merienda', cursive;
+}
+#help{
+    position: relative;
+}
+#help a{
+    background-color: #000;
+    color:#fff;
+    transition: .5s;
+}
+#help a:hover{
+    color: #03a9f4;
+}
+#help a span{
+    position: absolute;
+    width: 570px;
+    bottom: -50px;
+    border-radius: 4px;
+    left: 17%;
+    height: auto;
+    display: block;
+    line-height: 24px;
+    background-color: #03a9f4;
+    color: #fff;
+    transform: translateX(-17%) translateY(-10%);
+    transition: .5s;
+    opacity: 0;
+    visibility: hidden;
+}
+#help a:hover span{
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-17%) translateY(0);
+}
+#help a span:before{
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: rotate(45deg) translateX(-50%);
+    width: 10px;
+    height: 10px;
+    background-color: #03a9f4;
+    z-index: -1;
+}
+#nine iframe{
+    width: 100%;
+}
+
+@media only screen and (max-width: 550px){
+/* Helps viewing on mobile phone */
+      nav ul li{
+          width:50%;
+
+      }
+   
+    nav{
+        width: 50%;
+        /* background: red; */
+        margin-left: 0;
+        
+    }
+}
+
