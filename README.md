@@ -1,7 +1,7 @@
 # E commerce site
 #### This app is an E-commerce site for agricultural products, Wednesday April 17 2019 
 #### By **Calvo_linus**
-<img src="markdownmonstericon.png"
+<img src="./javascript/download.jpeg"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
 ## Description
