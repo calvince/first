@@ -1,6 +1,9 @@
 # E commerce site
 #### This app is an E-commerce site for agricultural products, Wednesday April 17 2019 
 #### By **Calvo_linus**
+<img src="markdownmonstericon.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
 ## Description
 {This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
 ## Setup/Installation Requirements
